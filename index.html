@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Adding, Editting and Deleting from a list</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adding, Editing and Deleting from a list</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="containerButton">
+        <input type="text" id="txt" /><br />
+        <button onclick="addLI()">Add</button>
+        <button onclick="editLI()">Edit</button>
+        <button onclick="deleteLI()">Delete</button>
 
-    <input type="text" id="txt">
-    <button>Add</button>
-    <button>Edit</button>
-    <button>Delete</button>    
-
-
-    <ul id="list">
-        <li>HTML</li>
-    </ul>
-
-
-    <script src="./index.js"></script>
-</body>
+        <ul id="list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>PHP</li>
+        </ul>
+      </div>
+    </div>
+    <script defer src="./index.js"></script>
+  </body>
 </html>
